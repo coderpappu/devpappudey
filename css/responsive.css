@@ -1,0 +1,243 @@
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    .profile_menu {
+        transform: translateX(-500px);
+    }
+
+    .image_after {
+        width: 98% !important;
+
+        left: -2px;
+    }
+
+    .banner_top_text {
+        width: 458px;
+        position: absolute;
+        top: 202px;
+        z-index: 11;
+        left: 4%;
+        text-align: justify;
+    }
+
+    .about_me,
+    .my_skill,
+    .own_counter,
+    .my_service,
+    .experince,
+    .my_awesome_work,
+    .contact_me {
+        width: 100%;
+        height: 1036px;
+        padding: 60px 60px 60px 60px;
+        margin: 14px 3px 22px 0px;
+        box-shadow: 0px 6px 15px 0px rgb(74 99 231 / 10%);
+    }
+
+    .my_skill_descripte {
+        margin: 49px 0px 0px 0px;
+    }
+
+    .manTAskCom img {
+        margin: -25px 0px 0px 0px;
+    }
+
+    .my_skill {
+        height: 1140px;
+    }
+
+    .box {
+        margin-bottom: 50px;
+    }
+
+    .own_counter {
+        height: 794px;
+    }
+
+    .service_box {
+
+        width: 361px;
+        height: 233px;
+        margin-bottom: 30px;
+    }
+
+    .my_service {
+
+        height: 1843px;
+
+    }
+
+    .experience_card {
+
+        width: 357px;
+
+    }
+
+    #experince_content {
+        height: 1461px !important;
+    }
+
+    .progress_line {
+        height: 601px;
+
+    }
+
+    #form_control_area {
+        width: 356px;
+    }
+
+    .menu_Block {
+        display: block;
+        transform: translateX(0px);
+        z-index: 100;
+        border: 1px solid #ff8100;
+    }
+
+    .icon_menu {
+        display: block;
+    }
+
+    div#image_back {
+        height: 1217px;
+    }
+
+    .my_skill {
+        height: 1201px;
+    }
+
+    /* .about_me{
+        height: 850px;
+    } */
+    #form_control_area {
+        width: 100%;
+    }
+
+    .text_box h3 {
+        font-family: 'Poppins';
+        font-size: 17px;
+    }
+
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width : 640px) {
+    /* Your Styles Here*/
+
+    .banner_top_text h2 {
+        font-size: 35px !important;
+    }
+
+    .banner_top_text {
+        width: 80%;
+        top: 160px;
+
+    }
+
+    .banner_top_text p {
+
+        font-size: 13px;
+
+    }
+
+    span.color_bot::after,
+    .color_bot2::after {
+
+        top: 30px;
+
+    }
+
+    button#portfolio {
+        margin-bottom: 2rem;
+    }
+
+    button#portfolio,
+    #hireme,
+    .cvDownload,
+    .hireme2 {
+        padding: 10px 11px;
+
+        font-size: 13px;
+
+    }
+
+    .banner_button {
+        text-align: center;
+    }
+
+    .about_me_Pic img {
+        margin-left: -16px;
+        margin-top: -10px;
+    }
+
+
+    .about_me_detials p {
+
+        font-size: 14px;
+        margin-left: -28px;
+    }
+
+
+
+    .personal_details {
+        margin-left: -27px;
+    }
+
+    .personal_details h3 {
+        font-size: 12px;
+    }
+
+    button.cvDownload {
+        padding: 10px 20px;
+        font-size: 16px;
+
+        margin-bottom: 20px;
+    }
+
+    .about_Me_bottom {
+
+        text-align: center;
+    }
+
+    button.hireme2 {
+
+        margin: 0px 0px 0px 0px;
+
+    }
+
+    .progress {
+
+        width: 100%;
+    }
+
+    .service_box {
+
+        width: 100%;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    .manTAskCom img {
+        width: 100%;
+    }
+
+    .my_service {
+        height: 1668px;
+    }
+
+    .experience_card {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .progress_line {
+        display: none;
+    }
+
+    #experince_content {
+        height: 1900px !important;
+    }
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Your Styles Here */
+}

@@ -1,12 +1,14 @@
-body{
+body {
     background-color: #F6F7FF;
     margin: 0;
     padding: 0;
 }
+
 .banner_top {
     margin-left: -38px;
     margin-top: 18px;
 }
+
 .profile_menu {
     background: #4A63E7;
     width: 290px;
@@ -14,6 +16,7 @@ body{
     overflow: hidden;
     position: fixed;
 }
+
 .profile_img img {
     width: 150px;
     height: 150px;
@@ -39,6 +42,7 @@ body{
     color: #fff;
     font-family: 'Poppins';
 }
+
 .dev-menu ul {
     margin-left: 4%;
 }
@@ -57,15 +61,19 @@ body{
     font-size: 14px;
     padding: 7px 20px 12px 0px;
 }
+
 .profile_menu {
     float: left;
 }
-.dev-menu{
+
+.dev-menu {
     margin-top: 8%;
 }
+
 section.header_sec {
     overflow: hidden;
 }
+
 .all_body img {
     width: 98%;
     height: 600px;
@@ -91,6 +99,7 @@ section.header_sec {
     top: 171px;
     z-index: 11;
     left: 33%;
+    width: 45%;
 }
 
 .banner_top_text h2 {
@@ -109,7 +118,10 @@ section.header_sec {
 }
 
 
-button#portfolio, #hireme, .cvDownload, .hireme2 {
+button#portfolio,
+#hireme,
+.cvDownload,
+.hireme2 {
     padding: 12px 26px;
     border: none;
     border-radius: 30px 30px 30px 30px;
@@ -121,10 +133,14 @@ button#portfolio, #hireme, .cvDownload, .hireme2 {
     transition: all 0.3s ease-in-out;
 }
 
-button#portfolio i, #hireme i, .hireme2 i, .cvDownload i {
+button#portfolio i,
+#hireme i,
+.hireme2 i,
+.cvDownload i {
     margin-right: 12px;
     font-size: 18px;
 }
+
 button#hireme {
     background: none;
     border: 1px solid #ddd;
@@ -136,24 +152,29 @@ button#portfolio:hover {
     box-shadow: 0px 8px 15px 0px rgb(0 0 0 / 20%);
     transform: translateY(-3px);
 }
+
 button#hireme:hover {
     background: #fff;
     box-shadow: 0px 8px 15px 0px rgb(0 0 0 / 20%);
     transform: translateY(-3px);
     color: #000;
 }
+
 .banner_top_text p {
     color: #fff;
     font-family: 'Poppins';
     font-size: 15px;
     margin: 33px 0px;
 }
-span.color_bot, .color_bot2 {
+
+span.color_bot,
+.color_bot2 {
     position: relative;
     z-index: 15;
 }
 
-span.color_bot::after, .color_bot2::after {
+span.color_bot::after,
+.color_bot2::after {
     position: absolute;
     top: 48px;
     left: 0;
@@ -163,7 +184,8 @@ span.color_bot::after, .color_bot2::after {
     background: #FF5959;
     border-radius: 50%;
 }
-span.color_bot2::after{
+
+span.color_bot2::after {
     position: absolute;
     top: 50px;
     left: -35px;
@@ -174,7 +196,13 @@ span.color_bot2::after{
     border-radius: 50%;
 }
 
-.about_me, .my_skill, .own_counter, .my_service {
+.about_me,
+.my_skill,
+.own_counter,
+.my_service,
+.experince,
+.my_awesome_work,
+.contact_me{
     width: 101%;
     height: 638px;
     background: white;
@@ -183,17 +211,22 @@ span.color_bot2::after{
     border-radius: 10px;
     box-shadow: 0px 6px 15px 0px rgb(74 99 231 / 10%);
 }
-/* 
-section Title style */ 
 
-.about_me_top h4, .my_skill_rename h4, .Service_title h4 {
+/* 
+section Title style */
+
+.about_me_top h4,
+.my_skill_rename h4,
+.Service_title h4 {
     font-family: 'Poppins';
     font-size: 25px;
     font-weight: 600;
 }
 
 
-.border_about, .border_skill, .border_service{
+.border_about,
+.border_skill,
+.border_service {
     position: absolute;
     width: 34px;
     height: 5px;
@@ -203,10 +236,14 @@ section Title style */
     margin-top: 19px;
 }
 
-.top_about_text,.my_skill_rename,.Service_title{
+.top_about_text,
+.my_skill_rename,
+.Service_title,
+.expirence_title {
     position: relative;
     z-index: 4;
 }
+
 /* section title style End */
 .about_me_top {
     width: 100%;
@@ -220,6 +257,7 @@ section Title style */
     margin-left: 20px;
     margin-top: 50px;
 }
+
 .about_me_detials h2 {
     font-family: 'Poppins';
     font-size: 26px;
@@ -239,6 +277,7 @@ section Title style */
     font-family: 'Poppins';
     font-size: 16px;
 }
+
 .personal_details h3 span {
     color: #818181;
 }
@@ -253,12 +292,17 @@ button.cvDownload {
 
 .about_Me_bottom {
     margin: 20px 0px;
-    
+
 }
 
-button.hireme2 {background: #4A63E7;padding: 11px 26px;margin: 0px 0px 0px 22px;font-size: 16px;
+button.hireme2 {
+    background: #4A63E7;
+    padding: 11px 26px;
+    margin: 0px 0px 0px 22px;
+    font-size: 16px;
     font-weight: 400;
-    text-transform: none;}
+    text-transform: none;
+}
 
 .personal_details h3 {
     font-size: 16px;
@@ -274,14 +318,18 @@ button.hireme2 {background: #4A63E7;padding: 11px 26px;margin: 0px 0px 0px 22px;
 
 .my_skill_descripte p {
     color: #898989;
+    text-align: justify;
 }
 
 .my_skill_bottom {
     margin: 80px 0px 30px 0px;
 }
+
 .divMar {
     margin: 22px 0px;
-}.progess_skill_name h5 {
+}
+
+.progess_skill_name h5 {
     font-family: 'Poppins';
     font-size: 17px;
     color: #ff0076;
@@ -290,41 +338,44 @@ button.hireme2 {background: #4A63E7;padding: 11px 26px;margin: 0px 0px 0px 22px;
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
 
 .progress {
-	background-color: #d8d8d8;
-	border-radius: 20px;
-	position: relative;
-	margin: 15px 0;
-	height: 20px;
-	width: 400px;
+    background-color: #d8d8d8;
+    border-radius: 20px;
+    position: relative;
+    margin: 15px 0;
+    height: 20px;
+    width: 400px;
 }
 
 .progress-done {
-	background: linear-gradient(to left, #F2709C, #FF9472);
-	box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
-	border-radius: 20px;
-	color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
-	width: 0%;
-	opacity: 0;
-	transition: 1s ease 0.3s;
+    background: linear-gradient(to left, #F2709C, #FF9472);
+    box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 0%;
+    opacity: 0;
+    transition: 1s ease 0.3s;
 }
+
 .manTAskCom img {
     width: 425px;
     height: auto;
     margin: 127px 0px 0px 0px;
 }
+
 .my_skill {
-    height: 900px !important;
+    height: 900px;
 }
+
 .own_counter {
     height: 240px;
     background: #4A67DE;
@@ -371,16 +422,18 @@ button.hireme2 {background: #4A63E7;padding: 11px 26px;margin: 0px 0px 0px 22px;
     transition: all 0.3s ease-in-out;
     margin-left: 10px;
 }
+
 .service_box_icon i {
     font-size: 24px;
     color: #FF5959;
 }
+
 .service_box_text h4 {
     font-size: 19px;
     font-family: 'Poppins';
     margin: 15px 0px 15px 0px;
     font-weight: 700;
-  
+
 }
 
 .service_box_text p {
@@ -388,9 +441,11 @@ button.hireme2 {background: #4A63E7;padding: 11px 26px;margin: 0px 0px 0px 22px;
     font-family: 'Poppins';
     font-size: 14px;
 }
+
 .service_box_icon {
     margin-top: 10px;
 }
+
 .service_box_icon {
     margin-top: 10px;
 }
@@ -401,10 +456,366 @@ button.hireme2 {background: #4A63E7;padding: 11px 26px;margin: 0px 0px 0px 22px;
     box-shadow: 0px 6px 15px 0px rgb(0 0 0 / 15%);
 }
 
-.service_box:hover i ,.service_box:hover p{
+.service_box:hover i,
+.service_box:hover p {
     color: #fff;
 }
 
 .service_bottom {
     margin-top: 40px;
 }
+
+.experience_middle {
+    margin-top: 74px;
+}
+
+.experience_yearWrap {
+    margin-top: 30px;
+}
+
+.experience_yearWrap {
+    margin-top: 50px;
+}
+
+.experinece_year h4 {
+    font-size: 15px;
+    margin-bottom: 107px;
+    color: #b1abab;
+    font-weight: 400;
+}
+
+.progress_line {
+    height: 502px;
+    width: 3px;
+    background: #e0dfdf;
+    position: relative;
+    float: left;
+}
+
+#spanTop {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: #e34747;
+    top: 0px;
+    border-radius: 50%;
+    margin-left: -3px;
+}
+
+#spanBottom {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: #e34747;
+    top: 364px;
+    border-radius: 50%;
+    margin-left: -3px;
+
+}
+
+span#spanNoOne,
+#spanNoTwo,
+#spanNoThree {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgb(255 80 0 / 47%);
+    border: 1px solid #ffffff00;
+    top: 14%;
+    margin-left: -3px;
+    border-radius: 50%;
+}
+
+
+#spanNoTwo {
+    top: 50%;
+}
+
+#spanNoThree {
+    top: 82%;
+}
+
+/* experience Card  */
+.experience_card {
+    margin-left: 2rem;
+    background: #e8e8e86e;
+    box-shadow: 0px 6px 15px 0px rgb(95 118 242 / 20%);
+    padding: 18px;
+    width: 400px;
+    border-radius: 5px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+.experience_logo i {
+    font-size: 20px;
+    margin-top: 11px;
+    color: #f42f2f;
+}
+
+.experience_content h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.experience_content p {
+    margin: 5px 0;
+    color: #717171;
+}
+
+p#company {
+    font-weight: 500;
+    color: #828282;
+}
+
+div#experince_content {
+
+    height: 740px;
+    
+}
+
+/* .awesome_img img {
+    width: 100%;
+    height: auto;
+}
+
+.awesome_demo {
+    margin-top: 30px;
+}
+
+.awesome_img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-image: url(../img/react\ next.png);
+    background-size: cover;
+    background-position: top;
+    transition: 30s;
+}
+
+.work_demo:hover .awesome_img {
+    background-position: bottom;
+ 
+}
+
+.work_demo {
+    position: relative !important;
+}
+
+.work_Overlay {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 11;
+    text-align: center;
+    border: 2px solid #d1d1d1;
+}
+
+.work_Overlay {
+    background: #6155bac4;
+    color: #fff;
+    margin: auto;
+    padding-top: 59px;
+}
+
+.work_demo:hover .work_Overlay {
+    opacity: 0;
+}
+
+.work_Overla y h3 {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+
+.work_Overlay h4 {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #595757;
+
+}
+
+.overlay_border {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    z-index: 22;
+    border: 2px solid #fff;
+    transform: translate(10px, 10px);
+}
+
+#image_back {
+    background-image: url(../img/work\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.show_box{
+    opacity: 0%;
+}
+.work_demo:hover .show_box{
+    opacity: 100%;
+}
+
+#awesome_img2{
+    background-image: url(../img/hometutor.jpg);
+}
+#awesome_img3{
+    background-image: url(../img/testo\ burger.png);
+} */
+
+
+
+.image_slide {
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    position: relative;
+  }
+.for_all_img_slide{
+    width: 100%;
+    height: 248px;
+    position: absolute;
+    background-size: cover;
+    background-position: top !important;
+    transition: 30s;
+}
+.image_box {
+    
+    background-image: url(../img/react\ next.png);
+   
+}
+.image_box2{
+    background-image: url(../img/testo\ burger.png);
+}
+.image_box3{
+    background-image: url(../img/hometutor.jpg);
+}
+.image_box4{
+    background-image: url(../img/work\ 4.jpg);
+}
+
+
+.image_slide:hover .image_slide_top_Bottom {
+    background-position: bottom !important;
+ 
+
+}
+.text_box {
+    position: absolute;
+    z-index: 10;
+    top: 36%;
+    left: 13%;
+    color: #fff;
+}
+
+.overlay {position: absolute;background: #2e0f34de;width: 100%;height: 248px;z-index: 7;    transition: 1s; }
+
+
+.image_slide:hover .overlay {opacity: 0;}
+
+.overlay_box {
+    position: absolute;
+    width: 90%;
+    height: 220px;
+    border: 1px solid #ddd;
+    z-index: 12;
+    left: 5%;
+    top: 6%;
+}
+
+.image_slide:hover .overlay_box {opacity: 0;}
+
+
+.image_slide:hover .text_box {opacity: 0;}
+
+.text_box h3 {font-family: 'Poppins';font-size: 23px;}
+.img_Icon {position: absolute;top: 48%;left: 44%;z-index: 20;color: #fff;font-size: 20px;}
+
+.image_slide:hover .img_Icon {
+    opacity: 0;
+}
+
+
+#form_control{
+    display: block;
+    border-radius: 30px;
+    width: 100%;
+    height: 60px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #454360;
+    background-color: #fff;
+    background-image: none;
+    border: 0;
+    box-shadow: 0px 5px 20px 0px rgb(55 53 83 / 10%);
+    margin-bottom: 20px;
+}
+#form_control_area{
+    display: block;
+    border-radius: 30px;
+
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #454360;
+    background-color: #fff;
+    background-image: none;
+    border: 0;
+    box-shadow: 0px 5px 20px 0px rgb(55 53 83 / 10%);
+    margin-bottom: 20px;
+}
+#form_control:focus{
+    box-shadow: 0px 5px 20px 0px rgb(55 53 83 / 10%);
+}
+
+
+.btn_default {
+    border-radius: 30px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    overflow: hidden;
+    line-height: 1;
+    padding: 12px 32px;
+    position: relative;
+    border: none;
+}
+
+.btn_default {
+    color: #fff;
+    background: #ff4c60;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+}
+
+.contact_call_img img {width: 100%;height: auto;}
+
+.contact_text h3 {letter-spacing: 1px;font-family: fantasy;color: #565555;font-size: 29px;}
+.contact_text h4 {margin-top: 45px;font-family: fantasy;font-size: 18px;letter-spacing: 1px;color: #5d5c5cdd;}
+
+
+
+#menu_open {position: absolute;top: 40px;right: 52px;z-index: 501;color: #fff; cursor: pointer;}
+
+.icon_menu{
+    display: none;
+}
+
+
+textarea#form_control_area:focus {outline: none;}
+
+.experience_card:hover {transform: translate(10px, 10px);}
+.experience_card{
+    transition: 1s;
+}
+.profile_name h3 {font-size: 27px;}

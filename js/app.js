@@ -6,11 +6,15 @@
 let skillsection = document.getElementById("skill_section");
 let progressBars = document.querySelectorAll(".progress-done") ;
 
+let profile_menu = document.querySelectorAll(".profile_menu");
+let addMenuBlock = document.querySelectorAll(".menu_Block")
+
+
 
 function showProgress(){
     progressBars.forEach(progressBar=>{
         const value = progressBar.dataset.progress;
-
+    
         progressBar.style.opacity = 1 ;
         progressBar.style.width = `${value}%`;
     })
@@ -31,5 +35,8 @@ window.addEventListener('scroll', ()=>{
         hideProgress();
     }
 })
+
+
+
 
 
